@@ -1,0 +1,230 @@
+>pwd
+root
+>ls 
+This directory is empty
+>mkdi
+Unknown command
+>mkdir vishnu
+>mkdir praneeth
+>mkdir saharsa 
+>mkdir sarayu
+>ls
+praneeth
+saharsa
+sarayu
+vishnu
+>exists praneeth
+praneeth exists
+>mkdir new folder
+>ls
+new folder
+praneeth
+saharsa
+sarayu
+vishnu
+>cd new       
+new not found
+>cd new folder
+>ls
+This directory is empty
+>mkdir hi
+>mkdir hello
+>cd hi
+>mkdir gm
+>mkdir gn
+>ls
+gm
+gn
+>cd ..
+>pwd
+new folder
+>cd ..
+>pwd
+root
+>cd new folder
+>showtree 
+new folder
+    hello
+    hi
+        gm
+        gn
+>countdir
+5
+>rmdir hello
+>showtree
+new folder
+    hi
+        gm
+        gn
+>countdir
+4
+>pwd
+new folder
+>cd ..
+>cd praneeth
+>mkdir school
+>mkdir inter
+>mkdir college
+>cd school
+>mkdir eps
+>mkdir 10 class
+>mkdir ssc
+>cd ..
+>pwd
+praneeth
+>showtree
+praneeth
+    college
+    inter
+    school
+        10 class
+        eps
+        ssc
+>cd ..
+>pwd
+root
+>ls
+new folder
+praneeth
+saharsa
+sarayu
+vishnu
+>cd saharsa
+>mkdir school
+>cd school
+>mkdir kazipet
+>mkdir 6th class
+>mkdir maths
+>ls
+6th class
+kazipet
+maths
+>show tree
+Unknown command
+>Unknown command
+>showtree  
+school
+    6th class
+    kazipet
+    maths
+>pwd   
+school
+>cd ..
+>pwd
+saharsa
+>cd ..
+>pwd
+root
+>ls
+new folder
+praneeth
+saharsa
+sarayu
+vishnu
+>cd sarayu
+>mkdir school
+>cd sarayu
+sarayu not found
+>cd school
+>mkdir 8th class
+>mkdir topper
+>cd ..
+>cd ..
+>pwd
+root
+>cd vishnu
+>mkdir school
+>mkdir inter
+>mkdir college
+>cd school 
+>mkdir eps
+>mkdir jangaon
+>cd ..
+>cd inter
+>mkdir hyd
+>mkdir teo college
+>cd ..
+>cd college
+>mkdir tkr
+>mkdir ece
+>mkdir hyd
+>ls
+ece
+hyd
+tkr
+>cd ..
+>pwd
+vishnu
+>cd ..
+>pwd
+root
+>countdir
+32
+>showtree
+root
+    new folder
+        hi
+            gm
+            gn
+    praneeth
+        college
+        inter
+        school
+            10 class
+            eps
+            ssc
+    saharsa
+        school
+            6th class
+            kazipet
+            maths
+    sarayu
+        school
+            8th class
+            topper
+    vishnu
+        college
+            ece
+            hyd
+            tkr
+        inter
+            hyd
+            teo college
+        school
+            eps
+            jangaon
+>rmdir sarayu
+>showtree
+root
+    new folder
+        hi
+            gm
+            gn
+    praneeth
+        college
+        inter
+        school
+            10 class
+            eps
+            ssc
+    saharsa
+        school
+            6th class
+            kazipet
+            maths
+    vishnu
+        college
+            ece
+            hyd
+            tkr
+        inter
+            hyd
+            teo college
+        school
+            eps
+            jangaon
+>exists tks
+tks does not exist
+>exists tkr
+tkr exists
+>quit
